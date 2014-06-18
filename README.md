@@ -61,48 +61,48 @@ The program, run_analysis.R, performs the following operations (details can be f
 run_analysis.out):
 
 1.  Merges the training and the test sets to create one data set.
-    a.  The data was first divided into a "test" and a "train" dataset.
-	b.  From there, there were three separate files,
-	    - subject file which specifies the subject identifier
-		- X file which defines various measurement data.  Column information for each of the 561
-		  fields can be found in the file, features.txt.
-		- Y file which defines the activity id.  Descriptive text for each id can be found in
-		  the file, activity_labels.txt.
-	c.  Read test data
-	    - read subject data, subject_test.txt
-		- read X data, X_test.txt
-		- read Y data, Y_test.txt
-	d.  Combine the three test files into a single dataset.
-	e.  Read train data
-	    - read subject data, subject_train.txt
-		- read X data, X_train.txt
-		- read Y data, Y_train.txt
-	d.  Combine the three train files into a single dataset.
-	e.  Combine the test and train datasets into a single dataset.
+  a.  The data was first divided into a "test" and a "train" dataset.
+  b.  From there, there were three separate files,
+	  - subject file which specifies the subject identifier
+	  - X file which defines various measurement data.  Column information for each of the 561
+		fields can be found in the file, features.txt.
+	  - Y file which defines the activity id.  Descriptive text for each id can be found in
+		the file, activity_labels.txt.
+  c.  Read test data
+	  - read subject data, subject_test.txt
+	  - read X data, X_test.txt
+	  - read Y data, Y_test.txt
+  d.  Combine the three test files into a single dataset.
+  e.  Read train data
+	  - read subject data, subject_train.txt
+	  - read X data, X_train.txt
+	  - read Y data, Y_train.txt
+  d.  Combine the three train files into a single dataset.
+  e.  Combine the test and train datasets into a single dataset.
 	
 2.  Extracts only the measurements on the mean and standard deviation for each measurement. 
-    a.  Identify those columns in the features.txt file that are related to mean and standard
-	    deviation.  In this case, perform a search for "mean()" and "std()".  Although there are 
+  a.  Identify those columns in the features.txt file that are related to mean and standard
+		deviation.  In this case, perform a search for "mean()" and "std()".  Although there are 
 		other columns with "mean" in them the corresponding measurement may not have a standard
 		deviation.
 
 3.  Use descriptive activity names to name the activities in the data set.  Appropriately label the 
     data set with descriptive variable names. 
-    a.  Utilize the column names from the features.txt file to label the measurement data.
-	b.  Utilize the activity descriptions from the activity_labels.txt file to identify the 
+  a.  Utilize the column names from the features.txt file to label the measurement data.
+  b.  Utilize the activity descriptions from the activity_labels.txt file to identify the 
 	    activities. 
 	
 4.  Creates a second, independent tidy data set with the average of each variable for each 
     activity and each subject. 
-    a.  Group the data by subject and activity and for each measurement data point, calculate the
+  a.  Group the data by subject and activity and for each measurement data point, calculate the
 	    average.
-	b.  Write this "tidy" data to a file.  Why is the data tidy?
-	    - Each variable forms a columns.
+  b.  Write this "tidy" data to a file.  Why is the data tidy?
+	  - Each variable forms a columns.
 		  - Each mean and standard deviation observation is in its own column.
-		- Each observation forms a row.
+		  - Each observation forms a row.
 		  - The data is ordered by subject_id and activity type.
-		- Each table/file stores data about one kind of observation.
-		  - 
+	  - Each table/file stores data about one kind of observation.
+		  - Measurement data obtained from Samsung smartphone. 
 	
 
 	
