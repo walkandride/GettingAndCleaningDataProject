@@ -4,22 +4,25 @@
 
 ptm <- proc.time() # benchmark
 
+# define location of data files
+base_dir <- "./" #"./data/UCI HAR Dataset/test/"
+
 # define column widths for measurement data (defined in "X" files)
 w <- rep(c(16), times=561)		
 
 # read test subject data
-test_subj <- read.fwf(file = "./data/UCI HAR Dataset/test/subject_test.txt"
+test_subj <- read.fwf(file = paste(base_dir, "subject_test.txt", sep = "")
 		, flush = TRUE
 		, header = FALSE
 		, widths = c(1)
 		, col.names = c("subject_id")
 		)
-test_x <- read.fwf(file = "./data/UCI HAR Dataset/test/X_test.txt"
+test_x <- read.fwf(file = paste(base_dir, "X_test.txt", sep = "")
 		, flush = TRUE
 		, header = FALSE
 		, widths = w
 		)
-test_y <- read.fwf(file = "./data/UCI HAR Dataset/test/Y_test.txt"
+test_y <- read.fwf(file = paste(base_dir, "Y_test.txt", sep = "")
 		, flush = TRUE
 		, header = FALSE
 		, widths = c(1)
@@ -29,18 +32,18 @@ test_y <- read.fwf(file = "./data/UCI HAR Dataset/test/Y_test.txt"
 test_merge <- cbind(cbind(test_x, test_y), test_subj)
 
 # read training data		
-train_subj <- read.fwf(file = "./data/UCI HAR Dataset/train/subject_train.txt"
+train_subj <- read.fwf(file = paste(base_dir, "subject_train.txt", sep = "")
 		, flush = TRUE
 		, header = FALSE
 		, widths = c(1)
 		, col.names = c("subject_id")
 		)
-train_x <- read.fwf(file = "./data/UCI HAR Dataset/train/X_train.txt"
+train_x <- read.fwf(file = paste(base_dir, "X_train.txt", sep = "")
 		, flush = TRUE
 		, header = FALSE
 		, widths = w
 		)
-train_y <- read.fwf(file = "./data/UCI HAR Dataset/train/Y_train.txt"
+train_y <- read.fwf(file = paste(base_dir, "Y_train.txt", sep = "")
 		, flush = TRUE
 		, header = FALSE
 		, widths = c(1)

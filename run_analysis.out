@@ -1,3 +1,7 @@
+R version 3.0.3 (2014-03-06) -- "Warm Puppy"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
 R is free software and comes with ABSOLUTELY NO WARRANTY.
 You are welcome to redistribute it under certain conditions.
 Type 'license()' or 'licence()' for distribution details.
@@ -10,7 +14,9 @@ Type 'demo()' for some demos, 'help()' for on-line help, or
 'help.start()' for an HTML browser interface to help.
 Type 'q()' to quit R.
 
-> setwd("L:/R Prg")
+> setwd("L:/R Prg/GettingAndCleaningDataProject1")
+> 
+> 
 > source("run_analysis.R", echo=TRUE, max.deparse.length=2048)
 
 > # ------------------------------------------------------------
@@ -19,24 +25,27 @@ Type 'q()' to quit R.
 > 
 > ptm <- proc.time() # benchmark
 
+> # define location of data files
+> base_dir <- "./" #"./data/UCI HAR Dataset/test/"
+
 > # define column widths for measurement data (defined in "X" files)
 > w <- rep(c(16), times=561)		
 
 > # read test subject data
-> test_subj <- read.fwf(file = "./data/UCI HAR Dataset/test/subject_test.txt"
+> test_subj <- read.fwf(file = paste(base_dir, "subject_test.txt", sep = "")
 + 		, flush = TRUE
 + 		, header = FALSE
 + 		, widths = c(1)
 + 		, col.names = c("subject_id")
 + 		)
 
-> test_x <- read.fwf(file = "./data/UCI HAR Dataset/test/X_test.txt"
+> test_x <- read.fwf(file = paste(base_dir, "X_test.txt", sep = "")
 + 		, flush = TRUE
 + 		, header = FALSE
 + 		, widths = w
 + 		)
 
-> test_y <- read.fwf(file = "./data/UCI HAR Dataset/test/Y_test.txt"
+> test_y <- read.fwf(file = paste(base_dir, "Y_test.txt", sep = "")
 + 		, flush = TRUE
 + 		, header = FALSE
 + 		, widths = c(1)
@@ -47,20 +56,20 @@ Type 'q()' to quit R.
 > test_merge <- cbind(cbind(test_x, test_y), test_subj)
 
 > # read training data		
-> train_subj <- read.fwf(file = "./data/UCI HAR Dataset/train/subject_train.txt"
+> train_subj <- read.fwf(file = paste(base_dir, "subject_train.txt", sep = "")
 + 		, flush = TRUE
 + 		, header = FALSE
 + 		, widths = c(1)
 + 		, col.names = c("subject_id")
 + 		)
 
-> train_x <- read.fwf(file = "./data/UCI HAR Dataset/train/X_train.txt"
+> train_x <- read.fwf(file = paste(base_dir, "X_train.txt", sep = "")
 + 		, flush = TRUE
 + 		, header = FALSE
 + 		, widths = w
 + 		)
 
-> train_y <- read.fwf(file = "./data/UCI HAR Dataset/train/Y_train.txt"
+> train_y <- read.fwf(file = paste(base_dir, "Y_train.txt", sep = "")
 + 		, flush = TRUE
 + 		, header = FALSE
 + 		, widths = c(1)
@@ -162,7 +171,7 @@ Type 'q()' to quit R.
 
 > proc.time() - ptm # End benchmark
    user  system elapsed 
- 458.08  102.31  569.37 
+ 500.36  102.74  613.46 
 
 > # End of program.
 > 
