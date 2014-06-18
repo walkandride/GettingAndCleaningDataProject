@@ -132,7 +132,7 @@ mdata <- melt(results2melt, id=c("subject_id", "activity_type"))
 tidy_data <- dcast(mdata, formula = subject_id + activity_type ~ variable, mean)
 
 # Export results to file.
-write.table(tidy_data, file="tidy_data.csv", sep=",")
+write.table(tidy_data, file="tidy_data.txt", sep="\t")
 
 
 proc.time() - ptm # End benchmark
