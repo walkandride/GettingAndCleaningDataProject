@@ -18,6 +18,8 @@ Preliminary setup:
 2.  Extract the ZIP archive file in the current directory, data.  A directory, UCI HAR Dataset, will
     be created.  When this step is complete, the directory structure will be as follows:
 
+</pre>
+	
 	./                                <-- location of R file, run_analysis.R
 	./data
 	./data/UCI HAR Dataset            <-- created when ZIP archive expanded
@@ -56,6 +58,7 @@ Preliminary setup:
 												/total_acc_y_train.txt
 												/total_acc_z_train.txt
 
+<pre>												
 Program analysis
 ================
 The program, run_analysis.R, performs the following operations (details can be found in the file,
