@@ -21,7 +21,7 @@ Preliminary setup:
 </pre>
 	
 	./                                <-- location of R file, run_analysis.R
-	./data
+	./data                            <-- download location of ZIP file
 	./data/UCI HAR Dataset            <-- created when ZIP archive expanded
 	                      /activity_labels.txt
 						  /features.txt
@@ -64,6 +64,11 @@ Program analysis
 The program, run_analysis.R, performs the following operations (details can be found in the file,
 run_analysis.out):
 
+NOTE:  The following data files:  subject_test.txt, X_test.txt, y_test.txt, subject_train.txt,
+		X_train.txt, and y_train.txt are referenced in the above program.  These files must
+		be located in the same directory as the run_analysis.R file.
+		
+							   
 1.  Merges the training and the test sets to create one data set.
   a.  The data was first divided into a "test" and a "train" dataset.
   b.  From there, there were three separate files,
