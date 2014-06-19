@@ -1,3 +1,4 @@
+<pre>
 Filename:  README.md
 ----------------------------------------------------------------------------------------------------
 Directory contents:
@@ -105,4 +106,4 @@ run_analysis.out):
 		  - Measurement data obtained from Samsung smartphone. 
 	
 
-	
+</pre>

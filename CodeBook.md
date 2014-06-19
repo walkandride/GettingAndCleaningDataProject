@@ -1,3 +1,4 @@
+<pre>
 DATA DICTIONARY
 FOR
 ACCELEROMETER DATA 
@@ -345,3 +346,6 @@ fBodyBodyGyroJerkMag-std()
 	Note:  
 	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
 
+	  
+## END OF FILE -------------------------------------------------------------------------------------	  
+</pre>
