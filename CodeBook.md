@@ -39,7 +39,7 @@ tBodyAcc-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 	
 tBodyAcc-std()-X
 tBodyAcc-std()-Y
@@ -49,7 +49,7 @@ tBodyAcc-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tGravityAcc-mean()-X
 tGravityAcc-mean()-Y
@@ -59,7 +59,7 @@ tGravityAcc-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tGravityAcc-std()-X
 tGravityAcc-std()-Y
@@ -69,7 +69,7 @@ tGravityAcc-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyAccJerk-mean()-X
 tBodyAccJerk-mean()-Y
@@ -79,7 +79,7 @@ tBodyAccJerk-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyAccJerk-std()-X
 tBodyAccJerk-std()-Y
@@ -89,7 +89,7 @@ tBodyAccJerk-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyGyro-mean()-X
 tBodyGyro-mean()-Y
@@ -99,7 +99,7 @@ tBodyGyro-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 	  
 tBodyGyro-std()-X
 tBodyGyro-std()-Y
@@ -109,7 +109,7 @@ tBodyGyro-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyGyroJerk-mean()-X
 tBodyGyroJerk-mean()-Y
@@ -119,7 +119,7 @@ tBodyGyroJerk-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyGyroJerk-std()-X
 tBodyGyroJerk-std()-Y
@@ -129,7 +129,7 @@ tBodyGyroJerk-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 	  
 tBodyAccMag-mean()
 	Description:  The calculated Euclidean norm mean of accelerometer 3-axial raw signals of body 
@@ -137,7 +137,7 @@ tBodyAccMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyAccMag-std()
 	Description:  The calculated Euclidean norm standard deviation of accelerometer 3-axial raw 
@@ -145,7 +145,7 @@ tBodyAccMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tGravityAccMag-mean()
 	Description:  The calculated Euclidean norm mean of accelerometer 3-axial raw signals of 
@@ -153,7 +153,7 @@ tGravityAccMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tGravityAccMag-std()
 	Description:  The calculated Euclidean norm standard deviation of accelerometer 3-axial raw 
@@ -161,7 +161,7 @@ tGravityAccMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyAccJerkMag-mean()
 	Description:  The calculated Euclidean norm mean of accelerometer 3-axial raw signals of 
@@ -169,7 +169,7 @@ tBodyAccJerkMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyAccJerkMag-std()
 	Description:  The calculated Euclidean norm standard deviation of accelerometer 3-axial raw 
@@ -178,7 +178,7 @@ tBodyAccJerkMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyGyroMag-mean()
 	Description:  The calculated Euclidean norm mean of accelerometer 3-axial raw signals of body 
@@ -186,7 +186,7 @@ tBodyGyroMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyGyroMag-std()
 	Description:  The calculated Euclidean standard deviation of accelerometer 3-axial raw signals 
@@ -194,7 +194,7 @@ tBodyGyroMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 tBodyGyroJerkMag-mean()
 	Description:  The calculated Euclidean norm mean of accelerometer 3-axial raw signals of body 
@@ -202,7 +202,7 @@ tBodyGyroJerkMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 	  
 tBodyGyroJerkMag-std()
 	Description:  The calculated Euclidean norm standard deviation of accelerometer 3-axial raw 
@@ -211,7 +211,7 @@ tBodyGyroJerkMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyAcc-mean()-X
 fBodyAcc-mean()-Y
@@ -221,7 +221,7 @@ fBodyAcc-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 	  
 fBodyAcc-std()-X
 fBodyAcc-std()-Y
@@ -231,7 +231,7 @@ fBodyAcc-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyAccJerk-mean()-X
 fBodyAccJerk-mean()-Y
@@ -242,7 +242,7 @@ fBodyAccJerk-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyAccJerk-std()-X
 fBodyAccJerk-std()-Y
@@ -253,7 +253,7 @@ fBodyAccJerk-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyGyro-mean()-X
 fBodyGyro-mean()-Y
@@ -263,7 +263,7 @@ fBodyGyro-mean()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyGyro-std()-X
 fBodyGyro-std()-Y
@@ -273,7 +273,7 @@ fBodyGyro-std()-Z
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyAccMag-mean()
 	Description:  The calculated Euclidean norm mean with an applied FFT (Fast Fourier Transform) 
@@ -281,7 +281,7 @@ fBodyAccMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyAccMag-std()
 	Description:  The calculated Euclidean norm standard deviation with an applied FFT (Fast 
@@ -290,7 +290,7 @@ fBodyAccMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyBodyAccJerkMag-mean()
 	Description:  The calculated Euclidean norm mean with an applied FFT (Fast Fourier Transform) 
@@ -299,7 +299,7 @@ fBodyBodyAccJerkMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 	  
 fBodyBodyAccJerkMag-std()
 	Description:  The calculated Euclidean norm standard deviation with an applied FFT (Fast 
@@ -308,7 +308,7 @@ fBodyBodyAccJerkMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyBodyGyroMag-mean()
 	Description:  The calculated Euclidean norm mean with an applied FFT (Fast Fourier Transform) 
@@ -317,7 +317,7 @@ fBodyBodyGyroMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyBodyGyroMag-std()
 	Description:  The calculated Euclidean norm standard deviation with an applied FFT (Fast 
@@ -326,7 +326,7 @@ fBodyBodyGyroMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyBodyGyroJerkMag-mean()
 	Description:  The calculated Euclidean norm mean with an applied FFT (Fast Fourier Transform) 
@@ -335,7 +335,7 @@ fBodyBodyGyroJerkMag-mean()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 fBodyBodyGyroJerkMag-std()
 	Description:  The calculated Euclidean norm standard deviation with an applied FFT (Fast 
@@ -344,7 +344,7 @@ fBodyBodyGyroJerkMag-std()
 	Datatype:  numeric
 	Range:  -1 .. 1
 	Note:  
-	  Source files:  X_test.txt, Y_test.txt, X_train.txt, Y_train.txt
+	  Source files:  X_test.txt, X_train.txt
 
 	  
 ## END OF FILE -------------------------------------------------------------------------------------	  
